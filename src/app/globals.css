@@ -1,0 +1,68 @@
+/* styles/global.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f3f4;
+}
+
+#__next {
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 16px;
+  background-color: #fff;
+}
+
+header, aside {
+  z-index: 1;
+}
+
+aside {
+  width: 240px;
+}
+
+
+html, body, #root,
+.app, .content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', arial;
+}
+
+.app{
+  display: flex;
+  position: relative;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background-color: #888;
+}
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #555;
+}
+
+/* Data Table */
+.bold-header {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
